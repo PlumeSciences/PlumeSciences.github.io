@@ -15,23 +15,17 @@
     <link href="css/carousel.css" rel="stylesheet">
 </head>
 
-<body>
+<body data-spy="scroll" data-target=".navbar">
 <!-- Fixed navbar -->
 <div class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
         <div class="navbar-header">
-            <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
-            <!--<span class="sr-only">Toggle navigation</span>-->
-            <!--<span class="icon-bar"></span>-->
-            <!--<span class="icon-bar"></span>-->
-            <!--<span class="icon-bar"></span>-->
-            <!--</button>-->
             <a class="navbar-brand" href="#">Plume & Sciences</a>
         </div>
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Accueil</a></li>
-                <li><a href="#about">About</a></li>
+                <li class="active"><a href="#myCarousel">Accueil</a></li>
+                <li><a href="#missions">Missions</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -90,7 +84,7 @@
 ================================================== -->
 <!-- Wrap the rest of the page in another container to center all the content. -->
 
-<div class="container marketing">
+<div id="missions" class="container marketing">
 
     <!-- Three columns of text below the carousel -->
     <div class="row">
@@ -133,7 +127,7 @@
 
     <!-- /END THE FEATURETTES -->
 
-    <div id="about" class="container">
+    <div id="contact" class="container">
         <div class="row">
             <div class="col-lg-4">
                 <h4>18, rue de la monnaie</h4>
