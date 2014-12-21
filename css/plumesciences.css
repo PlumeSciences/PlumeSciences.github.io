@@ -18,40 +18,21 @@ h2 {
     color: #000;
 }
 
-section {
-    padding: 150px 30px 40px 100px;
-
+.section-container {
+    padding-top: 66px;
 }
 
-section h2 {
+/*.section {*/
+    /*padding: 150px 30px 40px 100px;*/
+/*}*/
+
+.section h2 {
     padding: 40px 0;
     margin: 0;
 }
 
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
-
-/* Special class on .container surrounding .navbar, used for positioning it into place. */
-/*.navbar-wrapper {*/
-    /*position: absolute;*/
-    /*top: 0;*/
-    /*right: 0;*/
-    /*left: 0;*/
-    /*z-index: 20;*/
-/*}*/
-
-/* Flip around the padding for proper display in narrow viewports */
-/*.navbar-wrapper > .container {*/
-    /*padding-right: 0;*/
-    /*padding-left: 0;*/
-/*}*/
-/*.navbar-wrapper .navbar {*/
-    /*padding-right: 15px;*/
-    /*padding-left: 15px;*/
-/*}*/
-/*.navbar-wrapper .navbar .container {*/
-    /*width: auto;*/
-/*}*/
 
 .navbar .container {
     height: 40px;
