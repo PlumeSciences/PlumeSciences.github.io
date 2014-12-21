@@ -20,3 +20,26 @@ section h2 {
     padding: 40px 0;
     margin: 0;
 }
+
+.navbar .container {
+    height: 40px;
+    width: 1024px;
+    margin: auto;
+    padding: 0 0 0 0;
+    background-color: #101010;
+}
+
+.navbar-default {
+    background-color: #101010;
+    border-color: #101010;
+}
+
+.navbar li a {
+    height: 40px;
+    line-height: 25px;
+}
+
+.navbar li.active a {
+    color: #ffffff !important;
+    background-color: #101010 !important;
+}
