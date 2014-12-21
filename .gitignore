@@ -1,3 +1,9 @@
-.idea
+# Bower
+components
 
+#Idea
+.idea
 *.iml
+
+#Node
+node_modules
