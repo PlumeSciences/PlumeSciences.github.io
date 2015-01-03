@@ -62,16 +62,17 @@ h2 {
 -------------------------------------------------- */
 
 /* Center align the text within the three columns below the carousel */
-#missions .col-lg-4 {
+#missions .col-md-4 {
     margin-bottom: 20px;
     text-align: center;
 }
 
 #missions h2 {
     font-weight: normal;
+    font-family: 'Roboto', sans-serif;
 }
 
-#missions .col-lg-4 p {
+#missions .col-md-4 p {
     margin-right: 10px;
     margin-left: 10px;
 }
