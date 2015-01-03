@@ -172,6 +172,18 @@ h2 {
     color: #ffffff;
 }
 
+.colloques-header {
+    margin-top: 50px;
+    background-image: url("../img/colloques/bandeau_colloques.jpg");
+    height: 400px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.colloques-header h2 {
+    color: #ffffff;
+}
+
 .experience {
     margin: 5px 0 25px 0;
 }
