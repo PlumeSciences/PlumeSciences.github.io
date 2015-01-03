@@ -8,15 +8,14 @@ components/*/*.md
 components/*/LICENSE
 components/*/Gruntfile.js
 components/*/gulpfile.js
-components/*/fonts
 components/*/grunt
 components/*/js
 components/*/less
+components/*/scss
 components/*/.gitattributes
 components/*/.gitignore
-
-
-
+components/*/.npmignore
+components/boostrap/fonts
 
 
 #Idea
