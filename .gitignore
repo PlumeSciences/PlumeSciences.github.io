@@ -15,8 +15,9 @@ components/*/scss
 components/*/.gitattributes
 components/*/.gitignore
 components/*/.npmignore
-components/boostrap/fonts
-
+components/bootstrap/fonts
+components/*/source
+components/*/.editorconfig
 
 #Idea
 .idea
