@@ -171,6 +171,10 @@ h2 {
     font-family: 'Arvo', serif;
 }
 
+.redaction-header h1 {
+    font-weight: bold;
+}
+
 .redaction-header h2 {
     color: #ffffff;
 }
@@ -184,6 +188,10 @@ h2 {
     font-family: 'Arvo', serif;
 }
 
+.colloques-header h1 {
+    font-weight: bold;
+}
+
 .colloques-header h2 {
     color: #ffffff;
 }
@@ -195,6 +203,10 @@ h2 {
     color: #ffffff;
     text-align: center;
     font-family: 'Arvo', serif;
+}
+
+.projets-header h1 {
+    font-weight: bold;
 }
 
 .projets-header h2 {
