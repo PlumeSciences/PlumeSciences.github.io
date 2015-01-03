@@ -1,5 +1,23 @@
 # Bower
-components
+components/*/*.json
+components/*/*.txt
+components/*/src
+components/*/test
+components/*/.jshintrc
+components/*/*.md
+components/*/LICENSE
+components/*/Gruntfile.js
+components/*/gulpfile.js
+components/*/fonts
+components/*/grunt
+components/*/js
+components/*/less
+components/*/.gitattributes
+components/*/.gitignore
+
+
+
+
 
 #Idea
 .idea
