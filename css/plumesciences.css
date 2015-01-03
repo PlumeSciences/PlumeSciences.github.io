@@ -215,6 +215,10 @@ h2 {
     color: #891812;
 }
 
+#contact .fa-border:hover {
+    border-color: #bbb;
+}
+
 #contact a:hover {
     color: #cc231b;
 }
