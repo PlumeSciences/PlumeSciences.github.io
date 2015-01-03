@@ -240,3 +240,17 @@ h2 {
 }
 
 
+#whoami h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+#whoami p  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+#whoami span  {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+}
+
