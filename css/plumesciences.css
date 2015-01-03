@@ -211,5 +211,12 @@ h2 {
     font-size: 1.5em;
 }
 
+#contact a {
+    color: #891812;
+}
+
+#contact a:hover {
+    color: #cc231b;
+}
 
 
