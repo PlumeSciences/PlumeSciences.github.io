@@ -23,7 +23,7 @@
             <a class="navbar-brand" href="index.html">Plume & Sciences</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav custom-scroll-top">
                 <li class="active"><a href="#news">Accueil</a></li>
                 <li><a href="#missions">Missions</a></li>
                 <li><a href="#redaction">Rédaction</a></li>
@@ -466,6 +466,27 @@
     ga('create', 'UA-34771616-1', 'auto');
     ga('send', 'pageview');
 
+</script>
+<script>
+    $("ul.custom-scroll-top li a[href^='#']").on('click', function(e) {
+
+        // prevent default anchor click behavior
+        e.preventDefault();
+
+        // store hash
+        var hash = this.hash;
+
+        // animate
+        $('html, body').animate({
+            scrollTop: $(this.hash).offset().top
+        }, 300, function(){
+
+            // when done, add hash to url
+            // (default click behaviour)
+            window.location.hash = hash;
+        });
+
+    });
 </script>
 </body>
 </html>
