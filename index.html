@@ -23,14 +23,14 @@
             <a class="navbar-brand" href="index.html">Plume & Sciences</a>
         </div>
         <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav custom-scroll-top">
+            <ul class="nav navbar-nav">
                 <li class="active"><a href="#news">Accueil</a></li>
-                <li><a href="#missions">Missions</a></li>
-                <li><a href="#redaction">Rédaction</a></li>
-                <li><a href="#colloques">Colloques</a></li>
-                <li><a href="#projets">Sur-mesure</a></li>
-                <li><a href="#whoami">Qui suis-je ?</a></li>
-                <li><a href="#contact">Contact</a></li>
+                <li><a class="custom-scroll-top" href="#missions">Missions</a></li>
+                <li><a class="custom-scroll-top" href="#redaction">Rédaction</a></li>
+                <li><a class="custom-scroll-top" href="#colloques">Colloques</a></li>
+                <li><a class="custom-scroll-top" href="#projets">Sur-mesure</a></li>
+                <li><a class="custom-scroll-top" href="#whoami">Qui suis-je ?</a></li>
+                <li><a class="custom-scroll-top" href="#contact">Contact</a></li>
             </ul>
         </div>
     </div>
@@ -88,19 +88,19 @@
                 <img class="img-circle" src="img/picto-redac.png" alt="Rédaction" style="width: 140px; height: 140px;margin:0 auto">
                 <h2>Rédaction</h2>
                 <p class="text-justify">Plume & Sciences rédige vos textes de communication, pour rendre vos recherches accessibles (journaux, sites Internet, livres, expositions ou documents de communication).</p>
-                <p><a class="btn btn-default" href="#redaction" role="button">En savoir +</a></p>
+                <p><a class="btn btn-default custom-scroll-top" href="#redaction" role="button">En savoir +</a></p>
             </div>
             <div class="col-md-4 text-center">
                 <img class="img-circle" src="img/picto-colloques.png" alt="Colloques" style="width: 140px; height: 140px;margin:0 auto">
                 <h2>Colloques Scientifiques</h2>
                 <p class="text-justify">Plume & Sciences assure l’organisation de vos colloques scientifiques, nationaux ou internationaux (logistique, édition des actes, accueil, site Internet, communication…).</p>
-                <p><a class="btn btn-default" href="#colloques" role="button">En savoir +</a></p>
+                <p><a class="btn btn-default custom-scroll-top" href="#colloques" role="button">En savoir +</a></p>
             </div>
             <div class="col-md-4 text-center">
                 <img class="img-circle" src="img/picto-surmesure.png" alt="Projets Sur-mesure" style="width: 140px; height: 140px;margin:0 auto">
                 <h2>Projets <br/> sur-mesure</h2>
                 <p class="text-justify">Un besoin particulier dans la valorisation de vos recherches, et vous ne savez pas à qui vous adresser ? Plume & Sciences s’adapte à vous ou vous aide à trouver les prestataires appropriés.</p>
-                <p><a class="btn btn-default" href="#projets" role="button">En savoir +</a></p>
+                <p><a class="btn btn-default custom-scroll-top" href="#projets" role="button">En savoir +</a></p>
             </div>
         </div>
     </div>
@@ -450,7 +450,7 @@
 <!-- FOOTER -->
 <div class="container">
     <footer>
-        <p class="pull-right"><a href="#" style="color: #891812">Retour à l'Accueil</a></p>
+        <p class="pull-right"><a class="custom-scroll-top" href="#news" style="color: #891812">Retour à l'Accueil</a></p>
         <p>© 2015 Plume & Sciences <a href="mentions_legales.html" style="color: #891812">Mentions légales</a></p>
     </footer>
 </div>
@@ -468,7 +468,8 @@
 
 </script>
 <script>
-    $("ul.custom-scroll-top li a[href^='#']").on('click', function(e) {
+//    $("ul.custom-scroll-top li a[href^='#']").on('click', function(e) {
+    $("a.custom-scroll-top[href^='#']").on('click', function(e) {
 
         // prevent default anchor click behavior
         e.preventDefault();
@@ -487,6 +488,7 @@
         });
 
     });
+
 </script>
 </body>
 </html>
