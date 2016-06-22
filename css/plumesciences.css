@@ -133,9 +133,9 @@ h2 {
     letter-spacing: -1px;
 }
 
-.pull-left {
-	float:left
+.img-left {float: left; margin: 0 6px 6px 0;
 }
+
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
