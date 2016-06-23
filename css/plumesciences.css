@@ -21,7 +21,6 @@ h2 {
 
 .section-container {
     padding-top: 66px;
-    background-color: #f0f0f0;
 }
 
 .section h2 {
@@ -132,6 +131,7 @@ h2 {
     font-weight: 300;
     line-height: 1;
     letter-spacing: -1px;
+    background-color: #f0f0f0;
 }
 
 
