@@ -32,6 +32,10 @@ h2 {
     padding : 0 0 0 0;
 }
 
+.container .jumbotron, .container-fluid .jumbotron {
+    border-radius: 0px;
+}
+
 /* CUSTOMIZE THE NAVBAR
 -------------------------------------------------- */
 
