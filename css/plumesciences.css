@@ -19,6 +19,13 @@ h2 {
     color: #101010;
 }
 
+h3 {
+    text-align: center;
+    color: #5a5a5a;
+    font-family: 'Arvo', serif;
+    font-weight: 16;
+}
+
 .section-container {
     padding-top: 66px;
 }
